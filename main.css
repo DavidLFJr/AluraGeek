@@ -1,0 +1,101 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .header {
+    background-color: #6c03ff;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .header .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .products, .add-product {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  .products h2, .add-product h2 {
+    margin-bottom: 10px;
+    color: #6c03ff;
+  }
+  
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+  }
+  
+  .product-card {
+    background-color: #6c03ff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-card .delete {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .add-product form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .add-product input, .add-product button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-product button {
+    background-color: #6c03ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .footer {
+    text-align: center;
+    background-color: #6c03ff;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+  }
+  

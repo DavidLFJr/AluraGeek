@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraGeek</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <span>❤️❤️❤️</span>
+      <h1>AluraGeek</h1>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="products">
+      <h2>MEUS PRODUTOS:</h2>
+      <div class="product-list" id="product-list">
+        <!-- Produtos serão inseridos aqui dinamicamente -->
+      </div>
+    </section>
+
+    <section class="add-product">
+      <h2>ADICIONAR PRODUTO:</h2>
+      <form id="product-form">
+        <input type="text" id="name" placeholder="nome..." required>
+        <input type="number" id="price" placeholder="valor..." required>
+        <input type="url" id="image" placeholder="imagem..." required>
+        <div class="buttons">
+          <button type="submit">Guardar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>David Lucio</p>
+    <p>❤️AluraGeek❤️</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
